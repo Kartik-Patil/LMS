@@ -1,0 +1,85 @@
+.timeline-page {
+  padding: 2rem;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.breadcrumb a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.timeline-content {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: var(--card-shadow);
+}
+
+.time-selector-section {
+  margin-bottom: 2rem;
+}
+
+.time-selector-section label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.time-selector-section select {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: white;
+}
+
+.activity-section {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-activity-message {
+  text-align: center;
+  padding: 3rem;
+}
+
+.message-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.no-activity-message p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  background-color: #e0f2fe;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .timeline-page {
+    padding: 1rem;
+  }
+  
+  .timeline-content {
+    padding: 1.5rem;
+  }
+}
